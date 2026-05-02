@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local artifacts (build outputs from running the pipeline)
+work/
+out-*/
+benchmark-results*.json
+benchmark-questions*.json
+*.log
+
+# Secrets (sanity guard — keys should be in env vars, not files)
+.env
+.env.local
+*.key
+mineru-token*
+deepseek-key*
+
+# OS
+Thumbs.db
